@@ -1,0 +1,47 @@
+/* src/WeatherCard.css */
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff7e5f;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #feb47b;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
